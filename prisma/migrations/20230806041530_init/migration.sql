@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Employee" ALTER COLUMN "teamId" DROP DEFAULT;
+
+-- AlterTable
+ALTER TABLE "Task" ALTER COLUMN "teamId" DROP DEFAULT;
